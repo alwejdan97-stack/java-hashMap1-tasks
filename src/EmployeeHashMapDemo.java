@@ -12,9 +12,7 @@ public class EmployeeHashMapDemo {
         for(Map.Entry<Integer,String> result : employeeIDname.entrySet()){ // printing HashMap
             System.out.println(result);
         }
-        employeeIDname.put(1,"Ali"); // add another value to same key (update)
-        for(Map.Entry<Integer,String> result : employeeIDname.entrySet()){
-            System.out.println(result);
-        }
+        System.out.println("the name at key 2 is: "+ employeeIDname.get(2)); // retrive employee name
+        System.out.println("the name at key 4 is: "+ employeeIDname.get(4));
     }
 }
